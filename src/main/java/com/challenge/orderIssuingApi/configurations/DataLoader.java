@@ -1,9 +1,9 @@
 package com.challenge.orderIssuingApi.configurations;
 
-import com.challenge.orderIssuing.models.Client;
-import com.challenge.orderIssuing.models.Product;
-import com.challenge.orderIssuing.services.ClientService;
-import com.challenge.orderIssuing.services.ProductService;
+import com.challenge.orderIssuingApi.models.Client;
+import com.challenge.orderIssuingApi.models.Product;
+import com.challenge.orderIssuingApi.services.ClientService;
+import com.challenge.orderIssuingApi.services.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
