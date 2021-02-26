@@ -1,14 +1,17 @@
 package com.challenge.orderIssuingApi.models;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonManagedReference;
 import lombok.Data;
 
 import javax.persistence.*;
+import java.io.Serializable;
 import java.util.List;
 
 @Data
 @Entity
-public class OrderRequest {
+@JsonIgnoreProperties(value= {"items"})
+public class OrderRequest implements Serializable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
