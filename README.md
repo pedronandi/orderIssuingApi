@@ -1,6 +1,6 @@
 <h1 align="center">API de Emissão de Pedidos (Order Issuing API)</h1>
 
-Essa API funciona como back-end de uma aplicação simplificada de emissão de pedidos. Ela foi implementada em Java, com o auxílio do framework ![Spring Boot](https://start.spring.io/), e utilizando o banco de dados ![PostgreSQL](https://www.postgresql.org/). O projeto do Spring Boot conta com as seguintes dependências: Spring Web, Lombok, Spring Data JPA e PostgreSQL Driver.
+Essa API funciona como back-end de uma aplicação simplificada de emissão de pedidos. Ela foi implementada em Java, com o auxílio do framework [Spring Boot](https://start.spring.io/), e utilizando o banco de dados [PostgreSQL](https://www.postgresql.org/). O projeto do Spring Boot conta com as seguintes dependências: Spring Web, Lombok, Spring Data JPA e PostgreSQL Driver.
 Através dessa API, é possível efetuar o cadastro e a atualização de pedidos. Também é possível consultar os pedidos já existentes.
 
 ## Essa aplicação contém as seguintes entidades:
