@@ -14,10 +14,7 @@ Através dessa API, é possível efetuar o cadastro e a atualização de pedidos
 
 ## Dados pré-cadastrados:
 
-<p align="center"><strong>[Clientes]</strong></p>
-<p align="center">
-  <img src="/img/clientes.jpg" />
-</p>
+![Clientes]("/img/clientes.jpg")
 
 <p align="center"><strong>[Produtos]</strong></p>
 <p align="center">
@@ -50,7 +47,7 @@ Através dessa API, é possível efetuar o cadastro e a atualização de pedidos
   <img src="/img/get.jpg" />
 </p>
 
-<p align="center"><strong>Busca pelos pedidos cadastrados: [Pelo browser](https://order-issuing-api.herokuapp.com/orderRequest/)</strong></p>
+<p align="center"><strong>Busca pelos pedidos cadastrados: https://order-issuing-api.herokuapp.com/orderRequest</strong></p>
 <p align="center">
   <img src="/img/getFromBrowser.jpg" />
 </p>
