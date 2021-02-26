@@ -14,11 +14,14 @@ Através dessa API, é possível efetuar o cadastro e a atualização de pedidos
 
 ## Dados pré-cadastrados:
 
-![Clientes]("/img/clientes.jpg")
+<p align="center"><strong>[Clientes]</strong></p>
+<p align="center">
+  <img src="/img/clientes.png" />
+</p>
 
 <p align="center"><strong>[Produtos]</strong></p>
 <p align="center">
-  <img src="/img/produtos.jpg" />
+  <img src="/img/produtos.png" />
 </p>
 
 ## Regras de negócio:
@@ -39,44 +42,44 @@ Através dessa API, é possível efetuar o cadastro e a atualização de pedidos
 
 <p align="center"><strong>Cadastro do pedido com sucesso - HTTP 200:</strong></p>
 <p align="center">
-  <img src="/img/post.jpg" />
+  <img src="/img/post.png" />
 </p>
 
 <p align="center"><strong>Busca pelos pedidos cadastrados:</strong></p>
 <p align="center">
-  <img src="/img/get.jpg" />
+  <img src="/img/get.png" />
 </p>
 
 <p align="center"><strong>Busca pelos pedidos cadastrados: https://order-issuing-api.herokuapp.com/orderRequest</strong></p>
 <p align="center">
-  <img src="/img/getFromBrowser.jpg" />
+  <img src="/img/getFromBrowser.png" />
 </p>
 
 <p align="center"><strong>Atualização do pedido:</strong></p>
 <p align="center">
-  <img src="/img/update.jpg" />
+  <img src="/img/update.png" />
 </p>
 
 ## Imagens e exemplos - Regras de negócio:
 
 <p align="center"><strong>Quantidade do item zerada:</strong></p>
 <p align="center">
-  <img src="/img/amountUnreportedException.jpg" />
+  <img src="/img/amountUnreportedException.png" />
 </p>
 
 <p align="center"><strong>Valor informado do item zerado:</strong></p>
 <p align="center">
-  <img src="/img/unitPriceUnreportedException.jpg" />
+  <img src="/img/unitPriceUnreportedException.png" />
 </p>
 
 <p align="center"><strong>Rentabilidade ruim calculada:</strong></p>
 <p align="center">
-  <img src="/img/profitabilityException.jpg" />
+  <img src="/img/profitabilityException.png" />
 </p>
 
 <p align="center"><strong>Quantidade do item não é múltiplo do produto informado:</strong></p>
 <p align="center">
-  <img src="/img/multipleException.jpg" />
+  <img src="/img/multipleException.png" />
 </p>
 
 ## Como executar localmente?
