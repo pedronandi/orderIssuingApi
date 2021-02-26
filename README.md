@@ -33,6 +33,14 @@ Através dessa API, é possível efetuar o cadastro e a atualização de pedidos
   - <strong>Ruim</strong>: Quando o preço do item é inferior ao preço do produto menos 10%. Ex: Se o preço do produto é de R$ 100, a rentabilidade será ruim se o preço for menor ou igual a R$ 89,99. Quando efetuado cadastro do pedido, o sistema irá calcular a rentabilidade. Se a mesma for ruim, o item não será cadastrado e o usuário será informado.
 - <strong>Múltiplo de venda</strong>: Alguns produtos só podem ser vendidos em quantidades múltiplas de um determinado número. Por exemplo, o produto X-Wing só pode ser vendido em múltiplos de 2, por exemplo, 2, 4, 6, 8, etc. Já o produto Lightsaber só pode ser vendido em múltiplos de 5, ou seja, 5, 10, 15, 20 e assim por diante. Produtos que não possuem múltiplos podem ser vendidos em qualquer quantidade.
 
+## Documentação pelo Swagger:
+
+https://order-issuing-api.herokuapp.com/swagger-ui/index.html#/order-request-resource
+
+<p align="center">
+  <img src="/img/swagger.png" />
+</p>
+
 ## Acesso à produção:
 
 - A API está disponível através [deste endereço](https://order-issuing-api.herokuapp.com/);
