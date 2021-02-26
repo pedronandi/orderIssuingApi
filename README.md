@@ -35,7 +35,7 @@ Através dessa API, é possível efetuar o cadastro e a atualização de pedidos
 
 ## Acesso à produção:
 
-- A API está disponível através [deste endereço](https://order-issuing-api.herokuapp.com/)
+- A API está disponível através [deste endereço](https://order-issuing-api.herokuapp.com/);
 - Ela foi hospedada no [Heroku](https://heroku.com/), através da integração com o próprio GitHub e do plugin disponível para o PostgreSQL.
 
 ## Imagens e exemplos - Testes da API através do Isomnia:
