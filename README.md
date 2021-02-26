@@ -35,7 +35,7 @@ Através dessa API, é possível efetuar o cadastro e a atualização de pedidos
 
 ## Acesso à produção:
 
-- A API está disponível através ![deste endereço](https://order-issuing-api.herokuapp.com/)
+- A API está disponível através [deste endereço](https://order-issuing-api.herokuapp.com/)
 - Ela foi hospedada no ![Heroku](https://heroku.com/), através da integração com o próprio GitHub e do plugin disponível para o PostgreSQL.
 
 ## Imagens e exemplos - Testes da API através do Isomnia:
@@ -50,7 +50,7 @@ Através dessa API, é possível efetuar o cadastro e a atualização de pedidos
   <img src="/img/get.jpg" />
 </p>
 
-<p align="center"><strong>Busca pelos pedidos cadastrados: ![Pelo browser](https://order-issuing-api.herokuapp.com/orderRequest)</strong></p>
+<p align="center"><strong>Busca pelos pedidos cadastrados: [Pelo browser](https://order-issuing-api.herokuapp.com/orderRequest/)</strong></p>
 <p align="center">
   <img src="/img/getFromBrowser.jpg" />
 </p>
@@ -85,5 +85,5 @@ Através dessa API, é possível efetuar o cadastro e a atualização de pedidos
 ## Como executar localmente?
 
 Para executar esse projeto localmente, é necessário:
-- ![Neste tutorial](https://medium.com/@julianlfs/postgresql-pgadmin-4-docker-compose-9526f281c5e5) é possível configurar e rodar o PostgreSQL através do Docker, na sua máquina;
+- [Neste tutorial](https://medium.com/@julianlfs/postgresql-pgadmin-4-docker-compose-9526f281c5e5) é possível configurar e rodar o PostgreSQL através do Docker, na sua máquina;
 - Com o PostgreSQL rodando, é necessário reconfigurar o arquivo <strong>application.properties</strong> com as variáveis de ambiente locais (estão comentadas, em detrimento das variáveis do Heroku).
