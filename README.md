@@ -5,10 +5,10 @@ Através dessa API, é possível efetuar o cadastro e a atualização de pedidos
 
 ## Essa aplicação contém as seguintes entidades:
 
-<strong>Cliente</strong>: Não possui CRUD, pois estão todos pré-cadastrados;
-<strong>Produto</strong>: Também sem CRUD disponível, pelo mesmo motivo que os clientes;
-<strong>Item</strong>: Composto por um produto, uma quantidade e um valor informado;
-<strong>Pedido</strong>: Composto por um cliente e por uma lista de itens.
+- <strong>Cliente</strong>: Não possui CRUD, pois estão todos pré-cadastrados;
+- <strong>Produto</strong>: Também sem CRUD disponível, pelo mesmo motivo que os clientes;
+- <strong>Item</strong>: Composto por um produto, uma quantidade e um valor informado;
+- <strong>Pedido</strong>: Composto por um cliente e por uma lista de itens.
 
 <strong>OBS</strong>: Na implementação, a entidade Pedido é chamada "OrderRequest" e não apenas "Order". Isso porque o projeto inicial foi construído sobre o banco de dados H2, onde a palavra "ORDER" é reservada.
 
