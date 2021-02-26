@@ -45,8 +45,8 @@ public class SwaggerConfig extends WebMvcConfigurationSupport {
 
     private ApiInfo buildApiInfo() {
         return new ApiInfo(
-                "Gerenciador XXXXXX",
-                "API XXXXXXXXXXXX",
+                "API de Emissão de Pedidos",
+                "API de Emissão de Pedidos",
                 "1.0",
                 "",
                 new Contact("Pedro Nandi", "https://www.linkedin.com/in/pedronandi/", "pedronandi@gmail.com"),
