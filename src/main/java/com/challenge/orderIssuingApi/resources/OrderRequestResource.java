@@ -24,6 +24,7 @@ public class OrderRequestResource {
     }
 
     @ApiOperation("Cadastro de pedidos, um por vez")
+    @CrossOrigin
     @PostMapping
     public ResponseEntity<OrderRequest> save(@RequestBody OrderRequest orderRequest) {
         try {
@@ -34,12 +35,14 @@ public class OrderRequestResource {
     }
 
     @ApiOperation("Lista todos os pedidos")
+    @CrossOrigin
     @GetMapping
     public ResponseEntity<List<OrderRequest>> getAll() {
         return new ResponseEntity<>(orderRequestService.getAll(), HttpStatus.OK);
     }
 
     @ApiOperation("Atualização de pedidos, um por vez")
+    @CrossOrigin
     @PutMapping(path="/{id}")
     public ResponseEntity<OrderRequest> update(@PathVariable Integer id, @RequestBody OrderRequest newOrderRequest) {
         try {

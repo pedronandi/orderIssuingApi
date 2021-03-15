@@ -1,6 +1,5 @@
 package com.challenge.orderIssuingApi.models;
 
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonManagedReference;
 import lombok.Data;
 
@@ -10,7 +9,6 @@ import java.util.List;
 
 @Data
 @Entity
-@JsonIgnoreProperties(value= {"items"})
 public class OrderRequest implements Serializable {
 
     @Id
@@ -21,8 +19,9 @@ public class OrderRequest implements Serializable {
     private Client client;
 
     @JsonManagedReference
-    @OneToMany(mappedBy = "orderRequest", cascade = CascadeType.ALL)
+    @OneToMany(fetch = FetchType.EAGER, mappedBy = "orderRequest", cascade = CascadeType.ALL)
     private List<Item> items;
+    /* https://stackoverflow.com/questions/2990799/difference-between-fetchtype-lazy-and-eager-in-java-persistence-api */
 
     public OrderRequest() {
 
