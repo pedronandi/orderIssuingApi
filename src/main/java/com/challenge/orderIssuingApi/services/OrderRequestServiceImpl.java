@@ -7,6 +7,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.NoSuchElementException;
+import java.util.Optional;
 
 @Service
 public class OrderRequestServiceImpl implements OrderRequestService {
@@ -48,6 +49,15 @@ public class OrderRequestServiceImpl implements OrderRequestService {
     @Override
     public List<OrderRequest> getAll() {
         return orderRequestRepository.findAll();
+    }
+
+    @Override
+    public Optional<OrderRequest> getById(Integer id) {
+        try {
+            return orderRequestRepository.findById(id);
+        } catch(NoSuchElementException nsee) {
+            throw nsee;
+        }
     }
 
     @Override

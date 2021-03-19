@@ -11,6 +11,7 @@ import org.springframework.web.server.ResponseStatusException;
 
 import java.util.List;
 import java.util.NoSuchElementException;
+import java.util.Optional;
 
 @Api
 @RestController
@@ -39,6 +40,17 @@ public class OrderRequestResource {
     @GetMapping
     public ResponseEntity<List<OrderRequest>> getAll() {
         return new ResponseEntity<>(orderRequestService.getAll(), HttpStatus.OK);
+    }
+
+    @ApiOperation("Lista pedido pelo id")
+    @CrossOrigin
+    @GetMapping(path="/{id}")
+    public ResponseEntity<Optional<OrderRequest>> getById(@PathVariable Integer id) {
+        try {
+            return new ResponseEntity<Optional<OrderRequest>>(orderRequestService.getById(id), HttpStatus.OK);
+        } catch(NoSuchElementException nsee) {
+            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+        }
     }
 
     @ApiOperation("Atualização de pedidos, um por vez")
